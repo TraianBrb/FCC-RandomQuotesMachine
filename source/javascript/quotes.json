@@ -1,0 +1,85 @@
+{"happy": [
+        {"quote": "There is only one happiness in this life, to love and be loved.", "author": "George Sand"},
+        {"quote": "For every minute you are angry you lose sixty seconds of happiness.", "author": "Ralph Waldo Emerson"},
+        {"quote": "Folks are usually about as happy as they make their minds up to be.", "author": "Abraham Lincoln"},
+        {"quote": "Time you enjoy wasting is not wasted time.", "author": "Marthe Troly-Curtin, Phrynette Married"},
+        {"quote": "It's so hard to forget pain, but it's even harder to remember sweetness. We have no scar to show for happiness. We learn so little from peace.", "author": "Chuck Palahniuk, Diary"},
+        {"quote": "Happiness is when what you think, what you say, and what you do are in harmony.", "author": "Mahatma Gandhi"},
+        {"quote": "Happiness is not something ready made. It comes from your own actions.", "author": "Dalai Lama XIV"},
+        {"quote": "Count your age by friends, not years. Count your life by smiles, not tears.", "author": "John Lennon"},
+        {"quote": "If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.", "author": "J.R.R. Tolkien"},
+        {"quote": "Happiness is a warm puppy.", "author": "Charles M. Schulz"}
+    ],
+    "sad": [
+        {"quote": "So, this is my life. And I want you to know that I am both happy and sad and I'm still trying to figure out how that could be.", "author": "Stephen Chbosky"},
+        {"quote": "Every man has his secret sorrows which the world knows not; and often times we call a man cold when he is only sad.", "author": "Henry Wadsworth Longfellow"},
+        {"quote": "The reason it hurts so much to separate is because our souls are connected.", "author": "Nicholas Sparks"},
+        {"quote": "I have learned now that while those who speak about one's miseries usually hurt, those who keep silence hurt more.", "author": "C.S. Lewis"},
+        {"quote": "So it’s true, when all is said and done, grief is the price we pay for love.", "author": "E.A. Bucchianeri"},
+        {"quote": "You're like a song that I heard when I was a little kid but forgot I knew until I heard it again.", "author": "Maggie Stiefvater"},
+        {"quote": "The funniest people are the saddest ones", "author": "Confucius"},
+        {"quote": "Melancholy is the happiness of being sad.", "author": "Victor Hugo"},
+        {"quote": "I'm guilty of giving people more chances than they deserve but when I'm done, I'm done.", "author": "Turcois Ominek"},
+        {"quote": "There's nothing good about goodnight when it means goodbye", "author": "Jeff Thomas"}
+    ],
+    "afraid": [
+        {"quote": "Always do what you're afraid to do.", "author": "E. Lockhart"},
+        {"quote": "Don't be afraid of being scared. To be afraid is a sign of common sense. Only complete idiots are not afraid of anything.", "author": "Carlos Ruiz Zafón"},
+        {"quote": "I was afraid of being rejected, yes. I was also afraid of being accepted for the wrong reasons.", "author": "Erich Segal"},
+        {"quote": "I'm going to die whatever you do, but I'm not afraid.", "author": "Erin Hunter"},
+        {"quote": "I’m afraid I’ll be a book that no one reads. Music that no one listens to anymore. I’m afraid I’ll be abandoned like a movie playing in an empty theater.", "author": "Tablo"},
+        {"quote": "He will never have true friends who is afraid of making enemies.", "author": "William Hazlitt"},
+        {"quote": "Beethoven said that it's better to hit the wrong note confidently, than hit the right note unconfidently. Never be afraid to be wrong or to embarrass yourself; we are all students in this life, and there is always something more to learn.", "author": "Mike Norton"},
+        {"quote": "Never be afraid to be sexy!", "author": "Alysha Speer"},
+        {"quote": "it's doors I'm afraid of because I can't see through them, its the door opening by itself in the wind I'm afraid of.", "author": "Margaret Atwood"},
+        {"quote": "He steals your knees, not because he needs you, but because he feeds off of your fears.", "author": "Dominic Riccitello"}
+    ],
+    "angry": [
+        {"quote": "There are two things a person should never be angry at, what they can help, and what they cannot.", "author": "Plato"},
+        {"quote": "Speak when you are angry, and you'll make the best speech you'll ever regret.", "author": "Laurence J. Peter"},
+        {"quote": "Life is so short. The only person you hurt when you stay angry or hold grudges is you. Forgive everyone, including yourself.", "author": "Tom Giaquinto"},
+        {"quote": "If you're angry at stupid people, you're tempted to join them.", "author": "Toba Beta"},
+        {"quote": "The world needs more anger. The world often continues to allow evil because it isn't angry enough.", "author": "Bede Jarrett"},
+        {"quote": "It is when you are angry that you must watch how you talk.", "author": "Chaim Potok"},
+        {"quote": "Be angry. But don't be bitter.", "author": "David Paul Kirkpatrick"},
+        {"quote": "Strong anger can only make you weaker than you already are", "author": "Munia Khan"},
+        {"quote": "I'm not really angry at you. I'm just angry at myself for not doing anything.", "author": "Anthony T. Hincks"},
+        {"quote": "The warrior must never get angry in war.", "author": "Lailah Gifty Akita"}
+    ],
+    "confused": [
+        {"quote": "I just want to be someone, to mean something to anyone…", "author": "Charlotte Eriksson"},
+        {"quote": "Sometimes hate is just confused love!", "author": "Omar Tyree"},
+        {"quote": "I freely admit I'm confused. I'm a confused and troubled individual but at the same time...Its Free!", "author": "Craig Ferguson"},
+        {"quote": "I've never been lost, but I was mighty turned around for three days once.", "author": "Daniel Boone"},
+        {"quote": "They're not chicks. They're ducks.", "author": "Lauren Myracle"},
+        {"quote": "I'm too open minded that I don't know what to mind anymore.", "author": "Ahmed Mostafa"},
+        {"quote": "I danced as he twirled in and out of consciousness, and there we were, one in love and the other astray.", "author": "Dominic Riccitello"},
+        {"quote": "Love is when two people who care for each other get confused.", "author": "Rahul Rawat"},
+        {"quote": "If your mind is not clear then settle down", "author": "Herbern Lebumfacil"},
+        {"quote": "God can pick sense out of a confused prayer.", "author": "Richard Sibbes"}
+    ],
+    "guilty": [
+        {"quote": "I'm guilty of giving people more chances than they deserve but when I'm done, I'm done.", "author": "Turcois Ominek"},
+        {"quote": "When hatred judges, the verdict is just guilty.", "author": "Toba Beta"},
+        {"quote": "Guilt is a feeling that you owe a debt that you're not paying.", "author": "Stefan Molyneux"},
+        {"quote": "Don’t feel guilty for a crime you have not committed – commit it and be guilt free", "author": "Amit Abraham"},
+        {"quote": "Innocence falls on the deaf ears of the guilty.", "author": "Anthony T.Hincks"},
+        {"quote": "Aging is not our fault, but we certainly are guilty of feeling it.", "author": "Munia Khan"},
+        {"quote": "Every one of us is guilty of something!", "author": "Mehmet Murat ildan"},
+        {"quote": "Well, if my crime is love, then I am indeed guilty", "author": "Elise Kova"},
+        {"quote": "Guilt cannot change you; it can only hint that there’s something worth your effort to change.", "author": "Richelle E. Goodrich"},
+        {"quote": "When you give decision that the guilty is not guilty, only then will the guilty become not guilty.", "author": "Dada Bhagwan"}
+    ],
+    "lonely": [
+        {"quote": "All alone! Whether you like it or not, alone is something you'll be quite a lot!", "author": "Dr. Seuss"},
+        {"quote": "The loneliness you feel with another person, the wrong person, is the loneliest of all.", "author": "Deb Caletti"},
+        {"quote": "Absence makes the heart grow fonder, but it sure makes the rest of you lonely.", "author": "Charles M. Schulz"},
+        {"quote": "The trouble is not really in being alone, it's being lonely. One can be lonely in the midst of a crowd, don't you think?", "author": "Christine Feehan"},
+        {"quote": "It's so stupid because all I wanted was space and now that I have it, there's this part of me that's achingly lonely I could die.", "author": "Hannah Harrington"},
+        {"quote": "There were people everywhere on the city street, but the stranger could not have been more alone if it were empty.", "author": "Markus Zusak"},
+        {"quote": "It is beautiful, it is endless, it is full and yet seems empty. It hurts us.", "author": "Jackson Pearce"},
+        {"quote": "My heart is a thousand years old. I am not like other people.", "author": "Charles Bukowski"},
+        {"quote": "Having someone wonder where you are when you don't come home at night is a very old human need.", "author": "Margaret Mead"},
+        {"quote": "To me, you were more than just a person. You were a place where I finally felt at home.", "author": "Denice Envall"}
+    ]
+}

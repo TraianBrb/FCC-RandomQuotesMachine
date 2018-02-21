@@ -1,0 +1,684 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* /////////////////////////////////////////////////////////// */
+/* /// GENERAL LAYOUT /// */
+/* /////////////////////////////////////////////////////////// */
+html {
+  height: 100%; }
+
+body {
+  min-height: 375px;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f4657;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* /////////////////////////////////////////////////////////// */
+/* /// HOMEPAGE LAYOUT /// */
+/* /////////////////////////////////////////////////////////// */
+@media screen and (min-width: 728px) {
+  div.container-first {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative; } }
+
+div.left-section {
+  position: relative; }
+  @media screen and (min-width: 728px) {
+    div.left-section {
+      height: 100%;
+      width: 100%;
+      max-width: 728px;
+      float: right; } }
+
+.content-left-section {
+  width: calc(100% - 48px);
+  max-width: 520px;
+  margin: 0 auto;
+  overflow: auto; }
+  @media screen and (min-width: 728px) {
+    .content-left-section {
+      max-width: 450px;
+      height: 100%;
+      position: relative; } }
+
+header.header-homepage {
+  margin: 40px 0 60px;
+  position: relative; }
+
+a.logo {
+  line-height: 0;
+  text-decoration: none; }
+  a.logo path {
+    transition: all 0.15s ease; }
+  a.logo:hover path {
+    fill: #8d4993;
+    cursor: pointer; }
+
+a.bookmarks--quotes {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  padding-top: 2px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.15s ease; }
+  @media screen and (min-width: 500px) {
+    a.bookmarks--quotes {
+      width: 192px; } }
+  a.bookmarks--quotes #bookmarks {
+    transition: all 0.15s ease; }
+  a.bookmarks--quotes .bookmarks-text {
+    display: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px; }
+    @media screen and (min-width: 500px) {
+      a.bookmarks--quotes .bookmarks-text {
+        display: inline-block; } }
+  a.bookmarks--quotes:hover {
+    color: #8d4993; }
+    a.bookmarks--quotes:hover #bookmarks {
+      fill: #8d4993;
+      cursor: pointer; }
+
+a.bookmarks--index {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  padding-top: 2px;
+  text-decoration: none;
+  color: #3f4657;
+  transition: all 0.15s ease; }
+  @media screen and (min-width: 900px) {
+    a.bookmarks--index {
+      width: 192px; } }
+  a.bookmarks--index #bookmarks {
+    transition: all 0.15s ease; }
+  a.bookmarks--index .bookmarks-text {
+    display: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px; }
+    @media screen and (min-width: 900px) {
+      a.bookmarks--index .bookmarks-text {
+        display: inline-block; } }
+  a.bookmarks--index:hover {
+    color: #8d4993; }
+    a.bookmarks--index:hover #bookmarks {
+      fill: #8d4993;
+      cursor: pointer; }
+
+@media screen and (min-width: 728px) {
+  .main-top {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); } }
+
+@media screen and (min-width: 728px) and (max-height: 570px) {
+  .main-top {
+    padding-top: 60px; } }
+
+.main-top h1 {
+  max-width: 400px;
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left; }
+
+.main-top p {
+  margin-bottom: 64px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.56;
+  text-align: left; }
+  @media screen and (min-width: 728px) {
+    .main-top p {
+      max-width: 400px; } }
+
+footer#desktop-footer {
+  height: 51px;
+  width: 295px;
+  position: absolute;
+  bottom: 0; }
+  @media screen and (max-width: 728px) {
+    footer#desktop-footer {
+      display: none; } }
+  footer#desktop-footer p {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center; }
+    footer#desktop-footer p a.strong-text {
+      color: #3f4657;
+      font-weight: 400;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: all 0.15s ease; }
+      footer#desktop-footer p a.strong-text:hover {
+        color: #8d4993;
+        border-color: #8d4993;
+        cursor: pointer; }
+
+div.container-second {
+  background-image: linear-gradient(150deg, #c36ecb, #7989d8); }
+  @media screen and (min-width: 728px) {
+    div.container-second {
+      width: 50%;
+      height: 100%;
+      padding-left: 10px;
+      box-sizing: border-box;
+      float: right;
+      position: relative; } }
+
+@media screen and (max-width: 728px) {
+  div#left-cover {
+    display: none; } }
+
+@media screen and (min-width: 728px) {
+  div#left-cover {
+    height: 100%;
+    width: 50px;
+    background: url("../images/left-cover.svg") top left no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: -1px; } }
+
+div.scroll-right-section {
+  height: 100%; }
+  @media only screen and (min-width: 728px) and (max-height: 600px) {
+    div.scroll-right-section {
+      overflow-y: scroll; } }
+
+div.right-section {
+  position: relative; }
+  @media screen and (min-width: 728px) {
+    div.right-section {
+      width: 100%;
+      height: 100%;
+      max-width: 728px;
+      float: left;
+      position: relative; } }
+
+main.content-right-section {
+  width: calc(100% - 48px);
+  max-width: 520px;
+  margin: 0 auto; }
+  @media screen and (max-width: 728px) {
+    main.content-right-section {
+      padding: 30px 0; } }
+  @media screen and (min-width: 728px) {
+    main.content-right-section {
+      max-width: 450px;
+      height: 100%;
+      position: relative; } }
+
+section.list {
+  position: relative; }
+  @media screen and (min-width: 728px) and (max-height: 600px) {
+    section.list {
+      padding: 40px 0 40px; } }
+  @media screen and (min-width: 728px) and (min-height: 600px) {
+    section.list {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      padding: 33px 0px; } }
+
+div#top-cover {
+  height: 30px;
+  background: url("../images/top-cover.svg") top left no-repeat;
+  background-size: contain;
+  position: relative;
+  top: -1px; }
+  @media screen and (min-width: 728px) {
+    div#top-cover {
+      display: none; } }
+
+div#bottom-cover {
+  height: 30px;
+  background: url("../images/top-cover.svg") top left no-repeat;
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  background-size: contain;
+  position: relative;
+  bottom: -1px; }
+  @media screen and (min-width: 728px) {
+    div#bottom-cover {
+      display: none; } }
+
+ul.mood-list li.mood-item-container {
+  margin-bottom: 16px; }
+  ul.mood-list li.mood-item-container:last-of-type {
+    margin-bottom: 0px; }
+
+ul.mood-list a.mood-item {
+  display: block;
+  background-color: #e1e2e5;
+  padding-bottom: 5px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #3f4657;
+  line-height: 1.8;
+  text-align: left;
+  text-decoration: none;
+  transition: all 0.15s ease; }
+  ul.mood-list a.mood-item:hover {
+    background-color: #d3d5d9; }
+    ul.mood-list a.mood-item:hover span {
+      background-position: right 16px center;
+      background-color: #f2f2f2; }
+  ul.mood-list a.mood-item span {
+    position: relative;
+    display: block;
+    padding: 10px 40px 10px 20px;
+    background: url("../images/chevron.svg") no-repeat;
+    background-position: right 20px center;
+    background-color: white;
+    transition: all 0.15s ease;
+    border-radius: 4px; }
+
+footer#mobile-footer {
+  height: 51px;
+  padding-top: 32px; }
+  @media screen and (min-width: 728px) {
+    footer#mobile-footer {
+      display: none; } }
+  footer#mobile-footer p {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center; }
+    footer#mobile-footer p a.strong-text {
+      font-weight: 400;
+      text-decoration: none;
+      color: #3f4657;
+      border-bottom: 1px solid transparent;
+      transition: all 0.15s ease; }
+      footer#mobile-footer p a.strong-text:hover {
+        color: #8d4993;
+        border-color: #8d4993;
+        cursor: pointer; }
+
+/* /////////////////////////////////////////////////////////// */
+/* /// BOOKMARKS LAYOUT /// */
+/* /////////////////////////////////////////////////////////// */
+.back-arrow {
+  margin: 0 15px 4px 0; }
+
+#main-paragraph {
+  margin-bottom: 14px; }
+
+div#container-bookmarks {
+  background-image: linear-gradient(166deg, #fba34a, #e86591 53%, #a061bb); }
+
+@media screen and (max-width: 728px) {
+  div#left-cover-bookmarks {
+    display: none; } }
+
+@media screen and (min-width: 728px) {
+  div#left-cover-bookmarks {
+    height: 100%;
+    width: 50px;
+    background: url("../images/left-cover.svg") top left no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: -1px; } }
+
+div#top-cover-bookmarks {
+  height: 100%;
+  padding-top: 24px;
+  background: url("../images/top-cover-bookmarks.svg") top left no-repeat;
+  background-size: contain;
+  position: relative;
+  top: -1px; }
+  @media screen and (min-width: 728px) {
+    div#top-cover-bookmarks {
+      background: none;
+      padding: 0; } }
+
+main#content-right-section-bookmarks {
+  width: calc(100% - 48px);
+  max-width: 520px;
+  margin: 0 auto; }
+  @media screen and (min-width: 728px) {
+    main#content-right-section-bookmarks {
+      max-width: 450px;
+      height: 100%;
+      position: relative; } }
+
+@media screen and (min-width: 728px) {
+  div#scroll-bookmarks {
+    overflow-y: scroll; } }
+
+section#bookmarks-list {
+  top: 0;
+  transform: translateY(0%); }
+
+ul.bookmarks-list li.bookmarks-item-container {
+  margin-bottom: 16px;
+  background-color: #e1e2e5;
+  border-radius: 4px;
+  padding-bottom: 5px; }
+  ul.bookmarks-list li.bookmarks-item-container:last-of-type {
+    margin-bottom: 0px; }
+
+ul.bookmarks-list div.quote-head {
+  height: 86px;
+  background-color: white;
+  padding: 24px 24px 24px 24px;
+  box-sizing: border-box;
+  border: 1px solid #e0e1e4;
+  border-radius: 4px 4px 0px 0px; }
+  ul.bookmarks-list div.quote-head h3 {
+    opacity: 0.8;
+    font-size: 15px;
+    font-weight: 600;
+    color: #3f4657;
+    margin-bottom: 5px; }
+  ul.bookmarks-list div.quote-head span.date-of-bookmark {
+    opacity: 0.8;
+    font-size: 14px;
+    font-weight: 300; }
+
+ul.bookmarks-list div.quote-title {
+  float: left; }
+
+ul.bookmarks-list .share-bookmark {
+  float: right;
+  margin-top: 5px;
+  margin-right: 15px;
+  transition: all 0.15s ease; }
+  ul.bookmarks-list .share-bookmark path {
+    transition: all 0.15s ease; }
+  ul.bookmarks-list .share-bookmark:hover {
+    cursor: pointer; }
+    ul.bookmarks-list .share-bookmark:hover path {
+      fill: #8d4993; }
+
+ul.bookmarks-list div.remove-bookmark {
+  float: right;
+  margin-top: 4px; }
+  ul.bookmarks-list div.remove-bookmark #remove-bookmark {
+    transition: all 0.15s ease; }
+  ul.bookmarks-list div.remove-bookmark:hover #remove-bookmark {
+    fill: #FF3D00;
+    cursor: pointer; }
+
+ul.bookmarks-list div.bookmarks-item {
+  padding-bottom: 5px;
+  border-radius: 0px 0px 4px 4px;
+  background-color: white;
+  color: #3f4657;
+  text-align: left;
+  text-decoration: none;
+  transition: all 0.15s ease; }
+  ul.bookmarks-list div.bookmarks-item span.bookmarked-quote {
+    position: relative;
+    display: block;
+    padding: 20px 40px 16px 24px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    transition: all 0.15s ease;
+    border-radius: 0px 0px 4px 4px; }
+  ul.bookmarks-list div.bookmarks-item span.bookmarks-line {
+    padding-left: 24px; }
+  ul.bookmarks-list div.bookmarks-item span.bookmarked-quote-author {
+    display: block;
+    opacity: 0.8;
+    padding: 10px 40px 20px 24px;
+    font-size: 16px;
+    font-weight: 600; }
+
+/* /////////////////////////////////////////////////////////// */
+/* /// QUOTES LAYOUT /// */
+/* /////////////////////////////////////////////////////////// */
+.quotes-body {
+  height: 100%;
+  background: linear-gradient(151deg, #2E3192, #1BFFFF);
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff; }
+
+.quotes-body-over {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(151deg, #2E3192, #1BFFFF);
+  position: absolute;
+  z-index: 1; }
+
+.quotes-header {
+  position: absolute;
+  top: 44px;
+  left: 7vw;
+  right: 7vw;
+  z-index: 99; }
+
+.quotes-header__logo {
+  display: inline-block;
+  line-height: 0;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.15s ease; }
+  .quotes-header__logo:hover {
+    opacity: 1; }
+
+.quotes-header__bookmarks {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  padding-top: 2px;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+  transition: all 0.15s ease; }
+  @media screen and (min-width: 500px) {
+    .quotes-header__bookmarks {
+      width: 192px; } }
+  .quotes-header__bookmarks .bookmarks-text {
+    display: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px; }
+    @media screen and (min-width: 500px) {
+      .quotes-header__bookmarks .bookmarks-text {
+        display: inline-block; } }
+  .quotes-header__bookmarks:hover {
+    opacity: 1; }
+
+.quotes-main {
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; }
+
+.random-quote__container {
+  position: relative;
+  padding: 0 7vw;
+  box-sizing: border-box; }
+  @media screen and (min-width: 728px) {
+    .random-quote__container {
+      padding: 0 15vw; } }
+
+#reference-object {
+  display: none; }
+
+.random-quote__main {
+  margin-bottom: 34px;
+  max-width: 520px; }
+  .random-quote__main .random-quote__quote {
+    margin-bottom: 4vh;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.29; }
+  .random-quote__main .quote-separator {
+    font-size: 38px;
+    opacity: 0.8; }
+  .random-quote__main .quote-author {
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 600;
+    opacity: 0.8; }
+
+.random-quote-buttons__bookmark {
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.3s ease; }
+  .random-quote-buttons__bookmark:hover {
+    cursor: pointer;
+    opacity: 1; }
+
+.random-quote-buttons__share {
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+  margin-left: 38px; }
+  .random-quote-buttons__share:hover {
+    cursor: pointer;
+    opacity: 1; }
+
+.quotes-footer {
+  bottom: 24px;
+  left: 7vw;
+  right: 7vw;
+  position: absolute;
+  z-index: 2; }
+  .quotes-footer .previous-button {
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    opacity: 0.8;
+    transition: all 0.15s ease; }
+    .quotes-footer .previous-button:hover {
+      opacity: 1;
+      cursor: pointer; }
+  .quotes-footer .next-button {
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    opacity: 0.8;
+    transition: all 0.15s ease; }
+    .quotes-footer .next-button:hover {
+      opacity: 1;
+      cursor: pointer; }
+
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0 15% 0 0; }
+  @media screen and (min-width: 728px) {
+    .slick-list {
+      padding: 0 22vw 0 0; } }
+  .slick-list:focus {
+    outline: none; }
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  .slick-track:before, .slick-track:after {
+    content: "";
+    display: table; }
+  .slick-track:after {
+    clear: both; }
+  .slick-loading .slick-track {
+    visibility: hidden; }
+
+.slick-slide {
+  height: 100%;
+  vertical-align: middle;
+  min-height: 1px;
+  outline: none;
+  display: none;
+  opacity: 0.25; }
+  .slick-slide .random-quote-buttons__container {
+    position: relative; }
+  .slick-initialized .slick-slide {
+    display: inline-block; }
+  .slick-loading .slick-slide {
+    visibility: hidden; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
+.slick-active {
+  opacity: 1; }
